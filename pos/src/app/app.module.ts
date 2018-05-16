@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { IpadPrimeraparteComponent } from './ipad-primeraparte/ipad-primeraparte.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    IpadPrimeraparteComponent
   ],
   imports: [
     BrowserModule
