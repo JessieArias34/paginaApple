@@ -1,11 +1,32 @@
+
 .Ipad1{
 
-    display: flex;
+    
     
     
     }
-    img{
-        
-        padding: 0rem 0rem 1rem 8rem; 
-        
+
+
+    /*
+    .primeraImage{
+        position: absolute;
+        width: 100px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
     }
+    
+        
+ 
+    
+     @media only screen and (min-width: 1000px)  {
+        .mediana{
+            padding: 0rem 0rem 1rem 0rem;
+            width: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+    }*/
