@@ -1,10 +1,19 @@
 
-.Ipad1{
+.blanco{
+width: 100rem;
+background-color: white;
+}
+    .max{
 
-    
-    
-    
+        max-width: 30rem;
     }
+    .margenesImg{
+        margin: 0rem;
+        padding: 0rem;
+        border: 0rem;
+
+    }
+    
 
 
     /*
