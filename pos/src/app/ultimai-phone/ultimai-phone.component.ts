@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var $: any;
 @Component({
   selector: 'app-ultimai-phone',
   templateUrl: './ultimai-phone.component.html',
@@ -12,6 +12,7 @@ export class UltimaiPhoneComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
