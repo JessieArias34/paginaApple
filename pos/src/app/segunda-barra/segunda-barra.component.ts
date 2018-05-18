@@ -22,9 +22,20 @@ item6:"Comparar",
   constructor() { }
 
   ngOnInit() {
-    $('body').click(function(){
-      $('body').css('background','red');
-    })
+
+    $('.boton_izq').click(function() {
+      event.preventDefault();
+      $('#barra_ipad').animate({
+        scrollLeft: "+=100px"
+      }, "slow");
+   });
+   
+     $('.boton_der').click(function() {
+      event.preventDefault();
+      $('#barra_ipad').animate({
+        scrollLeft: "-=100px"
+      }, "slow");
+   });
   }
 
 }
