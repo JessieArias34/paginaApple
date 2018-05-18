@@ -1,3 +1,21 @@
-img{
-    margin: 50px;
+.nuevo{
+    color: red;
+    font-size: 9px;
+    margin: 0px;
+    padding: 0px;
+}
+.nombre_item{
+    font-size: 11px;
+    margin: 0px;
+    padding: 0px;
+}
+.fondito{
+    background-color: rgba(242,242,242,0.7);
+}
+.ligas{
+    text-decoration: none;
+    color: black;
+}
+.ligas:hover{
+color: rgb(8, 84, 206);
 }
