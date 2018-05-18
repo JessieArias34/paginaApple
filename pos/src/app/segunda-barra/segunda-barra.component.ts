@@ -23,14 +23,14 @@ export class SegundaBarraComponent implements OnInit {
 
   ngOnInit() {
 
-    $('.boton_izq').click(function () {
+    $('#boton_izq_ipad').click(function () {
       event.preventDefault();
       $('#barra_ipad').animate({
         scrollLeft: "+=100px"
       }, "slow");
     });
 
-    $('.boton_der').click(function () {
+    $('#boton_der_ipad').click(function () {
       event.preventDefault();
       $('#barra_ipad').animate({
         scrollLeft: "-=100px"
