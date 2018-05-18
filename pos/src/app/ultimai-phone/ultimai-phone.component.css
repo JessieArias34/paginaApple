@@ -36,7 +36,7 @@
 
 @media only screen and (max-width: 554px) {
   .ultima_imagen_iphone {
-    background-size: 90% 90%;
+    background-size: 100% 100%;
     height: 300px;
   }
   .contenido_ultima_imagen_iphone {
@@ -44,6 +44,10 @@
     z-index: auto;
     left: auto;
     top: auto;
+    background-color: rgba(242, 242, 242, 0.7);
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
   }
   .contenido_ultima_imagen_iphone p {
     color: blue;
