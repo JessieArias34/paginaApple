@@ -19,3 +19,9 @@
 .ligas:hover{
 color: rgb(8, 84, 206);
 }
+.overflow{
+    overflow: auto;
+    white-space: nowrap;
+    /*Para ocultar el scrolling horizontal y suar los botones con jquery
+    overflow-x: hidden;*/
+}
