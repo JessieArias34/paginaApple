@@ -8,12 +8,35 @@ background-color: white;
         max-width: 30rem;
     }
     .margenesImg{
-        margin: 0rem;
-        padding: 0rem;
-        border: 0rem;
+       
+        background-color: #FAFAFA;
 
     }
-    
+    .fondo{
+        background-color: #FAFAFA;  
+    }
+    .borde{
+        border:white .4rem solid;;
+    }
+    .cursor{
+        cursor: pointer;
+    }
+    .tituloP{
+font-size: 4rem;
+font-stretch: expanded;
+font-weight:15rem;
+color: #333333;
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+    }
+    .letras{
+        font-size: 2.4rem; 
+        font-weight: 15rem;
+        color: #333333;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: .5em;
+
+    }
 
 
     /*
