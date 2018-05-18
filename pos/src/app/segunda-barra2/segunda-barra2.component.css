@@ -1,0 +1,77 @@
+.nuevo {
+  color: red;
+  font-size: 9px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nombre_item {
+  font-size: 11px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.fondito {
+  background-color: rgba(242, 242, 242, 0.7);
+}
+
+.ligas {
+  text-decoration: none;
+  color: black;
+}
+
+.ligas:hover {
+  color: rgb(8, 84, 206);
+}
+
+.overflow {
+  overflow: auto;
+  white-space: nowrap;
+  /*Para ocultar el scrolling horizontal y suar los botones con jquery*/
+  overflow-x: hidden;
+}
+
+.boton_izq {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  right: 0;
+  height: 80px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.384);
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.boton_izq:hover {
+  background-color: #e7e7e7;
+}
+
+.boton_der {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  left: 0;
+  height: 80px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.384);
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.boton_der:hover {
+  background-color: #e7e7e7;
+}
+
+@media only screen and (max-width: 554px) {
+  #barra_iphone {
+    padding-left: 270px;
+  }
+}
+
+@media only screen and (min-width: 613px) {
+  .boton_der,
+  .boton_izq {
+    display: none;
+  }
+}
