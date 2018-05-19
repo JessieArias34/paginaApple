@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ipad-primeraparte.component.css']
 })
 export class IpadPrimeraparteComponent implements OnInit {
-
-tituloIpanParte32="Smart Keyboard para el iPad Pro";
+  tituloIpanParte3="Smart Keyboard";
+tituloIpanParte32=" para el iPad Pro";
 tituloIpanParte4="Compara los";
 tituloIpanParte41="modelos de iPad";
   constructor() { }
