@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChanComponent } from './chan.component';
+import { SecionChanComponent } from './secion-chan.component';
 
-describe('ChanComponent', () => {
-  let component: ChanComponent;
-  let fixture: ComponentFixture<ChanComponent>;
+describe('SecionChanComponent', () => {
+  let component: SecionChanComponent;
+  let fixture: ComponentFixture<SecionChanComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ChanComponent ]
+      declarations: [ SecionChanComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ChanComponent);
+    fixture = TestBed.createComponent(SecionChanComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
